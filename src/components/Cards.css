@@ -42,8 +42,11 @@ h1 {
 .cards__item {
   display: flex;
   flex: 1;
-
+  transform: scale(1.0);
   border-radius: 10px;
+}
+.cards__item:hover {
+  transform: scale(1.1);
 }
 
 .icons__item {
@@ -130,7 +133,7 @@ h1 {
   top: 0;
   right: 0;
   bottom: 0;
-  left: -30%;
+  left: -35%;
   display: block;
   width: 100%;
   max-width: 100%;
@@ -153,7 +156,7 @@ h1 {
 
 .cards__item__info {
   padding: 20px 30px 30px;
-  margin-left: 110px;
+  margin-left: 80px;
 }
 
 .cards__item__infotext{

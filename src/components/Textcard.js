@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 function Textcard(props) {
   return (
     <>
-      <li className='cards__item'>
-
+      <li className='cards__container'>
           <div className='cards__item__infotext'>
             <h5 className='cards__item__text'>{props.text}</h5>
             <br></br>

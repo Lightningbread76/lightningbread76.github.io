@@ -20,7 +20,7 @@ function Cards() {
             />
             </div>
             </div>
-            <div className='cards__item'>
+
             <Textcard
               text="As someone who has been coding since the age of 14, I consider myself an experienced programmer. I’ve done a variety of projects in different fields in Computer Science, my most notable ones are the Note taking android app(Checkmate) and an interactive web book website. 
               What I can bring to the table is a deep understanding in Object Oriented Programming,HTML/CSS,  javascript, typescript, MongoDB and Firebase. 
@@ -29,7 +29,6 @@ function Cards() {
               text1="I am a fast learner, especially when I come to develop a passion for the subject. My favorite method of learning is pair programming as we can not only share and exchange our knowledge but also create a sense of understanding and comradeship. 
               One of my strengths is having the ability to recognize who is best at doing what while working in a team environment and I often use that intuition to maximize efficiency and productivity."
             />
-            </div>
           </ul>
 
           </div>

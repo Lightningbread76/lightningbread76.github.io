@@ -12,7 +12,7 @@ function Project(props) {
               src={props.src}
             />
           </figure>
-          <div className='cards__item__info'>
+          <div className='cards__item__infotext'>
             <h5 className='cards__item__text'>{props.text}</h5>
           </div>
         </a>

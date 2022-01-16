@@ -6,14 +6,12 @@ function Contact() {
     return (
         <div className='cards'>
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
             <div className='cards__portrait'>
             <img
               src='images/goodlookin.jpg'
               alt=''
             />
-            </div>
-            <div className='cards__item'>
+            <br></br>
             <Card className="category-title">
               <Card.Body>
                 {/* Frontend */}
@@ -38,11 +36,8 @@ function Contact() {
                   </Card.Text>
               </Card.Body>
             </Card>
-            </div>
-          </ul>
-
           </div>
-
+          </div>
       </div>
     )
 }

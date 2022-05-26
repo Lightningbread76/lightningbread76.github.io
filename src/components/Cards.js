@@ -13,12 +13,10 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <div className='cards__portrait'>
-            <div className='cards__portrait'>
             <img
               src='images/goodlookin.jpg'
               alt=''
             />
-            </div>
             </div>
 
             <Textcard
@@ -41,19 +39,19 @@ function Cards() {
               src='images/ski1.png'
               text='From basketball to skiing, theres no sport that I would elude from competing in.'
               label='Sports'
-              path='https://www.instagram.com/kevinguo76/'
+              path='https://www.instagram.com/itskevinguo/'
             />
             <Hobby
               src='images/aerial.png'
               text='I can do both portrait and aerial photography, contact me if you want to do a photoshoot!'
               label='Photography'
-              path='https://www.instagram.com/kevinguo76/'
+              path='https://www.instagram.com/itskevinguo/'
             />
             <Hobby
               src='images/webdesign.png'
               text='If you would like me to help you design your website, contact me, I give friends discounts!'
               label='Web Design'
-              path='https://www.instagram.com/kevinguo76/'
+              path='https://www.instagram.com/itskevinguo/'
             />
           </ul>
         </div>

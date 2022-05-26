@@ -20,8 +20,8 @@ function Contact() {
                 <Card.Text className="card-text">
                 <Skillcard
                   src = 'images/insta.png'
-                  text = "kevinguo76"
-                  path = "https://www.instagram.com/kevinguo76/"
+                  text = "itskevinguo"
+                  path = "https://www.instagram.com/itskevinguo/"
                   />
                   <Skillcard
                   src = 'images/gmaillogo.png'

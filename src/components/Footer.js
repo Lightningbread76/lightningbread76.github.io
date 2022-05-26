@@ -27,7 +27,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <a href='https://www.instagram.com/kevinguo76/' title = "Instagram">Instagram</a>
+            <a href='https://www.instagram.com/itskevinguo/' title = "Instagram">Instagram</a>
             <a href='https://mkorostoff.github.io/1-pixel-wealth/?fbclid=IwAR3RTNt6OVmcrzYKjqOPzaYB0bpQPH_8hUtmeGjJ4rTWj6uhLCd1hOzC6pE' title = "Pixel Wealth"> Pixel Wealth</a>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>

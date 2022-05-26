@@ -86,16 +86,6 @@ const Skills = () => {
                   text = "Node JS"
                   path = "https://nodejs.org/en/"
                   />
-                  <Skillcard
-                  src = 'images/skills/Django.svg'
-                  text = "Django"
-                  path = "https://www.djangoproject.com/"
-                  />
-                  <Skillcard
-                  src = 'images/skills/Springboot.png'
-                  text = "Springboot"
-                  path = "https://spring.io/"
-                  />
                   </Card.Text>
               </Card.Body>
             </Card>

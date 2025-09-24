@@ -1,5 +1,5 @@
 import React from 'react';
-
+//Helper class for Projects.js
 function Project(props) {
   return (
     <>

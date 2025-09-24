@@ -23,7 +23,6 @@ function Cards() {
               text="I have always wanted to change the world for the better. I studied Mechanical Engineering in my freshman year of college
               because I wanted to work on rockets and contribute to mankind's exploration of the stars. 
               But I soon realized that my skills in programming and problem solving were much better than my chemistry and calculus skills. So I switched to Computer Science as a major.
-
               I’ve done a variety of projects in different fields in Computer Science, my most notable ones are the Note taking android app(Checkmate) and an interactive web book website. 
               What I can bring to the table is a deep understanding in clean code standards, Object Oriented Programming, HTML/CSS,  javascript, MATLAB, efficient testing, MongoDB and Firebase. 
               I also have experience in python, R, and the agile development workflow from my past internships and courses at Boston University."

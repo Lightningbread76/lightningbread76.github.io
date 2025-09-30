@@ -11,14 +11,12 @@ function Cards() {
       <h1>About Me</h1>
 
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
             <div className='cards__portrait'>
             <img
               src='images/goodlookin.jpg'
               alt=''
             />
             </div>
-
             <Textcard
               text="I have always wanted to change the world for the better. I studied Mechanical Engineering in my freshman year of college
               because I wanted to work on rockets and contribute to mankind's exploration of the stars. 
@@ -30,7 +28,6 @@ function Cards() {
               text1="I am a fast learner, especially when I come to develop a passion for the subject. My favorite method of learning is pair programming as we can not only share and exchange our knowledge but also create a sense of understanding and comradeship. 
               One of my strengths is having the ability to recognize who is best in their field while working in a team environment and I often use that intuition to maximize efficiency and productivity as a leader."
             />
-          </ul>
 
           </div>
           <div className='cards'>

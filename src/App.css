@@ -6,7 +6,7 @@
 }
 
 .home,
-.services,
+.skills,
 .experience,
 .sign-up {
   display: flex;
@@ -16,8 +16,8 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/images/skillsnew.jpg');
+.skills {
+  background-image: url('/images/skyrimskills.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

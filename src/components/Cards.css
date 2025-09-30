@@ -24,7 +24,7 @@ h1 {
 .cards__portrait{
   display: flex;
   flex-flow: column;
-  align-items:left;
+  align-items:center;
   max-width: 800px;
   width: 300px;
   margin: 0 auto;

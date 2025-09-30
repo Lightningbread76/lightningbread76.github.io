@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Skillcard from './Skillcard';
-import './Cards.css';
+import './SkillCards.css';
 const Skills = () => {
   return (
     <div className = 'cards'>
@@ -96,7 +96,7 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text">
                 <Skillcard
-                  src = 'images/skills/mongodb.svg'
+                  src = 'images/skills/mongodb.png'
                   text = "Mongo DB"
                   path = "https://www.mongodb.com/"
                   />

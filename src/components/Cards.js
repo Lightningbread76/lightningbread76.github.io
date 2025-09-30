@@ -2,7 +2,6 @@ import React from 'react';
 import './Cards.css';
 //import CardItem from './CardItem';
 import Textcard from './Textcard';
-import Icon from './Icon';
 import Hobby from './Hobby';
 
 function Cards() {
@@ -11,11 +10,11 @@ function Cards() {
       <h1>About Me</h1>
 
         <div className='cards__wrapper'>
-            <div className='cards__portrait'>
-            <img
+          <img className = 'profilepic'
               src='images/goodlookin.jpg'
               alt=''
             />
+            <div className='cards__portrait'>
             </div>
             <Textcard
               text="I have always wanted to change the world for the better. I studied Mechanical Engineering in my freshman year of college

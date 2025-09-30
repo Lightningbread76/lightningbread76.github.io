@@ -7,7 +7,7 @@ function Contact() {
         <div className='cards'>
         <div className='cards__wrapper'>
             <div className='cards__portrait'>
-            <img
+            <img className = 'profilepic'
               src='images/goodlookin.jpg'
               alt=''
             />

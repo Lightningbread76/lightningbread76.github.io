@@ -47,10 +47,10 @@ function Cards() {
               path='https://www.instagram.com/itskevinguo/'
             />
             <Hobby
-              src='images/webdesign.png'
-              text='If you would like me to help you design your website, contact me, I give friends discounts!'
+              src='images/kgnightmarket1.png'
+              text='Check out my night market! I sell a variety of products and services.'
               label='Web Design'
-              path='https://www.instagram.com/itskevinguo/'
+              path='https://kgnightmarket.netlify.app/'
             />
           </ul>
         </div>

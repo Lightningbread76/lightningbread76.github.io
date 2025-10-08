@@ -13,8 +13,7 @@ function Projects() {
                 <Card.Title className="card-title">Projects</Card.Title>
                 <hr />
                 <Card.Text className="card-text">
-                <div className='cards__container'>
-          <ul className='cards__items'>
+          <div className='projects__container'>
             <Project
               src='images/checkmate_logo.png'
               text='Checkmate - a Note taking android app'
@@ -39,7 +38,48 @@ function Projects() {
               label='Be a Hero'
               path='https://kmi.eshuwu.net/'
             />
-          </ul>
+            <Project
+              src='images/mathworks.png'
+              text='Mathworks - Dark Mode in Simulink feature'
+              label='Company Project'
+              path='https://www.mathworks.com/help/simulink/slref/simulationdatainspector.html'
+            />
+            <Project
+              src='images/mathworks.png'
+              text='Mathworks - Bug fix Matlab testpoints & testing code base maintenance + lean componentization'
+              label='Company Project'
+              path='https://www.mathworks.com/help/simulink/slref/simulationdatainspector.html'
+            />
+            <Project
+              src='images/mathworks.png'
+              text='Mathworks - C++ to Matlab code testpoints'
+              label='Company Project'
+              path='https://www.mathworks.com/help/simulink/slref/simulationdatainspector.html'
+            />
+            <Project
+              src='images/mathworks.png'
+              text='Mathworks - Javascript unit testing and system to unit test conversion'
+              label='Company Project'
+              path='https://www.mathworks.com/help/simulink/slref/simulationdatainspector.html'
+            />
+            <Project
+              src='images/mathworks.png'
+              text='Mathworks - Test Documentation'
+              label='Company Project'
+              path='https://www.mathworks.com/help/simulink/slref/simulationdatainspector.html'
+            />
+            <Project
+              src='images/mathworks.png'
+              text='Mathworks - Update Save, import, export, preferences, dialog features'
+              label='Company Project'
+              path='https://www.mathworks.com/help/simulink/slref/simulationdatainspector.html'
+            />
+            <Project
+              src='images/mathworks.png'
+              text='Mathworks - Facilitated build operations for team cluster'
+              label='Company Project'
+              path='https://www.mathworks.com/help/simulink/slref/simulationdatainspector.html'
+            />
         </div>
                   </Card.Text>
               </Card.Body>

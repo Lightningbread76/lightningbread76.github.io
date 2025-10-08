@@ -30,7 +30,7 @@ function Contact() {
                   />
                   <Skillcard
                   src = 'images/linkedin.png'
-                  text = ""
+                  text = "Kevin Guo"
                   path = "https://www.linkedin.com/in/kevin-guo-a24123196/"
                   />
                   </Card.Text>

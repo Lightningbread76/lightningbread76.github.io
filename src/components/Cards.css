@@ -27,10 +27,19 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
+  max-width: 800px;
   width: 100%;
-  margin-left:auto;
-  margin-right:auto;
+}
+
+.projects__container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 4 equal columns */
+  width: 100%;
+  max-width: 1200px;      /* optional: keep it from stretching too wide */
+  margin: 0 auto;         /* center the grid horizontally */
+  padding: 20px;
+  box-sizing: border-box;
+
 }
 
 .cards__portrait{
@@ -49,15 +58,12 @@ h1 {
   align-items: center;
 }
 
-.cards__items {
-  margin-bottom: 24px;
-}
-
 .cards__item {
   display: flex;
   flex: 1;
   transform: scale(1.0);
   border-radius: 10px;
+  min-width: 150px;
 }
 .cards__item:hover {
   transform: scale(1.1);
@@ -204,5 +210,18 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+/* Medium screens: 2 per row */
+@media (max-width: 900px) {
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small screens: 1 per row */
+@media (max-width: 600px) {
+  .projects__container {
+    grid-template-columns: 1fr;
   }
 }
